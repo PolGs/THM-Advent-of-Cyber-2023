@@ -1,4 +1,4 @@
-# Day 2
+# Day 3
 
 ![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/86c03667-b93e-4e16-9d02-74c409f88ea6)
 ![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/1c81a9f1-4649-4232-b609-8eabad750d2a)
